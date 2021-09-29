@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "0.8.0",
+  "description": "employee profile server side project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodAffection/Node.js-MySQL-CRUD-Operations.git"
+  },
+  "author": "Jayakrishna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodAffection/Node.js-MySQL-CRUD-Operations/issues"
+  },
+  "homepage": "https://github.com/CodAffection/Node.js-MySQL-CRUD-Operations#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
