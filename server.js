@@ -18,11 +18,11 @@ app.use(express.json());
 
 let PORT = process.env.PORT | 3000;
 let sql = mysql.createConnection({
-    host:"sql6.freesqldatabase.com",
-    user:"sql6441085",
-    password:"gcaaSfiK4q",
-    database:"sql6441085",
-    port:3306,
+    host:"hostname",
+    user:"username",
+    password:"password",
+    database:"database name",
+    port:"[Port Number]",
         
         
     })
